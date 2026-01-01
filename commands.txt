@@ -1,0 +1,13 @@
+python -m venv .venv 
+.\.venv\Scripts\activate
+pip install streamlit
+pip install pandas 
+python.exe -m pip install --upgrade pip
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/diskind1/week_11_test_Kubernetes.git
+git push -u origin main
+
