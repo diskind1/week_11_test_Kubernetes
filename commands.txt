@@ -46,3 +46,22 @@ add .
 git status
 git commit -m "merge dockerfiles"
 git push
+
+git add . 
+git commit -m "update"
+git push
+git checkout dockerfile
+git branch
+
+
+docker login
+docker build -t mennidiskind/contacts-streamlit:v1 ./app
+docker run -d --name streamlit -p 8080:8501 sha256:9ec7573477c35d4e71444417dee333d5cbd3473f501d04692ae5cd4314548313
+docker push mennidiskind/contacts-streamlit:v1
+streamlit run app/main.py
+
+git add .
+git commit -m "docker commands"
+git push
+git branch
+
