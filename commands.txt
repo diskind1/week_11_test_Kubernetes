@@ -42,3 +42,7 @@ git checkout main
 git branch
 git pull origin main 
 git merge dockerfile
+add .
+git status
+git commit -m "merge dockerfiles"
+git push
