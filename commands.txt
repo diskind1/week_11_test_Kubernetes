@@ -65,3 +65,24 @@ git commit -m "docker commands"
 git push
 git branch
 
+ git checkout main
+ git add .
+ git commit -m "a"
+ git push
+ git checkout main
+ git pull origin main 
+ git add .
+ git commit -m "dockerfiles merge"
+ git push
+ git checkout podyaml
+ git branch
+
+ minikube start 
+ kubectl apply -f k8s/
+
+ kubectl get pods
+kubectl get services
+kubectl logs streamlit
+
+kubectl describe pod streamlit
+minikube service streamlit-service --url

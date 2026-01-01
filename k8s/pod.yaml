@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: streamlit
+  labels:
+    app: streamlit
+spec:
+  containers:
+  - name: streamlit
+    image: mennidiskind/contacts-streamlit:v1
+    imagePullPolicy: IfNotPresent
+
+    ports:
+    - containerPort: 8501
+  
