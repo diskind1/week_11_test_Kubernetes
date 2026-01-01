@@ -18,3 +18,7 @@ git commit -m "commit to Dockerfile and more"
 git push -u origin dockerfile
 git branch
 
+git add .
+commit -m "update commands"
+git push
+
