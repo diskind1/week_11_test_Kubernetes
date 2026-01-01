@@ -60,3 +60,8 @@ docker run -d --name streamlit -p 8080:8501 sha256:9ec7573477c35d4e71444417dee33
 docker push mennidiskind/contacts-streamlit:v1
 streamlit run app/main.py
 
+git add .
+git commit -m "docker commands"
+git push
+git branch
+
